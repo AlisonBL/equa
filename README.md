@@ -40,6 +40,8 @@ La única **implementación extra** es **Navegación entre vistas**, para esto e
 4. Ejecutar la aplicación desde Android Studio.
 5. Al presionar una de las 4 fórmulas se redigirá al formulario correspondiente, presionar Volver para ir al menú o Limpiar para un nuevo cálculo
 
+**Nota: Al presionar Calcular debe scrollear para ver el resultado**
+
 ## Licencia
 
 Distribuido bajo la Licencia MIT.
