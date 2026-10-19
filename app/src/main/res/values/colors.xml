@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FF3B69</color>
+    <color name="secondary">#00C7BE</color>
+    <color name="tertiary">#30D158</color>
+    <color name="text_primary">#25252B</color>
+    <color name="text_secondary">#757578</color>
+    <color name="background">#F7F8FA</color>
+    <color name="surface">#E9FBE8</color>
+    <color name="card_stroke">#30D158</color>
+    <color name="formula_surface">#F1F4F6</color>
+    <color name="button_disabled">#D1D1D6</color>
+    <color name="button_text_disabled">#76767B</color>
+    <color name="error">#FF5722</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>

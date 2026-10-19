@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Equa</string>
+    <string name="menu_eyebrow">EQUA / FORMULAS</string>
+    <string name="menu_title">Solve your formulas</string>
+    <string name="menu_subtitle">Choose one of the four options to get started.</string>
+    <string name="menu_section">Select a calculation</string>
+    <string name="menu_action">Open formula</string>
+    <string name="menu_imc_description">Calculate your BMI and see its classification.</string>
+    <string name="menu_ohm_description">Find current from voltage and resistance.</string>
+    <string name="menu_distance_description">Calculate distance at a constant speed.</string>
+    <string name="menu_interest_description">Find the final balance and earned interest.</string>
+    <string name="formula_imc_title">Body mass index</string>
+    <string name="formula_ohm_title">Ohm\'s law</string>
+    <string name="formula_distance_title">Distance traveled</string>
+    <string name="formula_interest_title">Compound interest</string>
+    <string name="back">Back</string>
+    <string name="calculate">Calculate</string>
+    <string name="clear">Clear</string>
+    <string name="result">Result</string>
+    <string name="inputs">Input data</string>
+    <string name="field_weight">Weight</string>
+    <string name="field_height">Height</string>
+    <string name="field_voltage">Voltage</string>
+    <string name="field_resistance">Resistance</string>
+    <string name="field_speed">Speed</string>
+    <string name="field_time">Time</string>
+    <string name="field_initial_capital">Initial principal</string>
+    <string name="field_rate">Interest rate per period</string>
+    <string name="field_periods">Number of periods</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_m">m</string>
+    <string name="unit_volt">V</string>
+    <string name="unit_ohm">Ω</string>
+    <string name="unit_ampere">A</string>
+    <string name="unit_mps">m/s</string>
+    <string name="unit_seconds">s</string>
+    <string name="unit_currency">$</string>
+    <string name="unit_percent">%</string>
+    <string name="unit_periods">periods</string>
+    <string name="unit_distance">m</string>
+    <string name="error_required">This field is required.</string>
+    <string name="error_invalid_number">Enter a valid number.</string>
+    <string name="error_must_positive">The value must be greater than zero.</string>
+    <string name="error_must_nonnegative">The value cannot be negative.</string>
+    <string name="error_rate_range">The rate must be between 0% and 100%.</string>
+    <string name="error_periods_integer">Enter a whole number of periods.</string>
+    <string name="result_imc">BMI: %1$.2f</string>
+    <string name="result_current">Current: %1$.2f A</string>
+    <string name="result_distance">Distance: %1$.2f m</string>
+    <string name="result_final_capital">Final balance: $%1$.2f</string>
+    <string name="result_interest">Interest earned: $%1$.2f</string>
+    <string name="imc_underweight">Underweight</string>
+    <string name="imc_normal">Normal weight</string>
+    <string name="imc_overweight">Overweight</string>
+    <string name="imc_obesity">Obesity</string>
+    <string name="result_classification">Classification: %1$s</string>
+
+    <string name="imc_introduction">Calculate your body mass index using your weight and height.</string>
+    <string name="imc_formula_heading">BMI FORMULA</string>
+    <string name="imc_formula_accessibility">Mass in kilograms divided by height in meters squared.</string>
+    <string name="imc_formula_explanation">m = mass in kg; h = height in m. Indicative classification for adults.</string>
+    <string name="imc_weight_label">Weight (kg)</string>
+    <string name="imc_height_label">Height (m)</string>
+    <string name="imc_weight_hint">e.g. 65.5</string>
+    <string name="imc_height_hint">e.g. 1.65</string>
+    <string name="imc_input_help">Valid ranges: 20–350 kg for weight and 0.8–2.5 m for height.</string>
+    <string name="imc_weight_range_error">Enter a weight between 20 and 350 kg.</string>
+    <string name="imc_height_range_error">Enter a height between 0.8 and 2.5 m.</string>
+    <string name="imc_result_with_unit">BMI: %1$.2f kg/m²</string>
+
+    <string name="ohm_introduction">Calculate electric current from voltage and resistance.</string>
+    <string name="ohm_formula_heading">OHMS LAW FORMULA</string>
+    <string name="ohm_formula_accessibility">Current equals voltage divided by resistance.</string>
+    <string name="ohm_formula_explanation">I = current in amperes; V = voltage in volts; R = resistance in ohms.</string>
+    <string name="ohm_voltage_label">Voltage (V)</string>
+    <string name="ohm_resistance_label">Resistance (Ω)</string>
+    <string name="ohm_voltage_hint">e.g. 12</string>
+    <string name="ohm_resistance_hint">e.g. 6</string>
+    <string name="ohm_input_help">Valid ranges: 0–1000 V for voltage and 0.1–100000 Ω for resistance. Resistance cannot be zero.</string>
+    <string name="ohm_voltage_range_error">Enter a voltage between 0 and 1000 V.</string>
+    <string name="ohm_resistance_range_error">Enter a resistance between 0.1 and 100000 Ω.</string>
+
+    <string name="distance_introduction">Calculate the distance traveled when speed stays constant.</string>
+    <string name="distance_formula_heading">DISTANCE FORMULA</string>
+    <string name="distance_formula_accessibility">Distance equals speed multiplied by time.</string>
+    <string name="distance_formula_explanation">d = distance in meters; v = speed in m/s; t = time in seconds.</string>
+    <string name="distance_speed_label">Speed (m/s)</string>
+    <string name="distance_time_label">Time (s)</string>
+    <string name="distance_speed_hint">e.g. 12.5</string>
+    <string name="distance_time_hint">e.g. 8</string>
+    <string name="distance_input_help">Valid ranges: speed between 0 and 1000 m/s and time between 0 and 86400 s. We assume constant speed.</string>
+    <string name="distance_speed_range_error">Enter a speed between 0 and 1000 m/s.</string>
+    <string name="distance_time_range_error">Enter a time between 0 and 86400 s.</string>
+
+    <string name="interest_introduction">Calculate the final balance and interest earned with compounding each period.</string>
+    <string name="interest_formula_heading">COMPOUND INTEREST FORMULAS</string>
+    <string name="interest_final_formula_label">Final balance</string>
+    <string name="interest_earned_formula_label">Interest earned</string>
+    <string name="interest_final_formula_accessibility">Final balance equals initial principal times one plus the decimal interest rate, raised to the number of periods.</string>
+    <string name="interest_earned_formula_accessibility">Interest earned equals initial principal times one plus the decimal interest rate raised to the number of periods, minus one.</string>
+    <string name="interest_formula_explanation">Ci = initial principal; i = decimal rate per period; n = number of periods; Cf = final balance; I = interest earned.</string>
+    <string name="interest_capital_label">Initial principal ($)</string>
+    <string name="interest_rate_label">Rate per period (%)</string>
+    <string name="interest_periods_label">Number of periods</string>
+    <string name="interest_capital_hint">e.g. 1000</string>
+    <string name="interest_rate_hint">e.g. 5</string>
+    <string name="interest_periods_hint">e.g. 2</string>
+    <string name="interest_input_help">Use the rate for each period (for an annual rate, each period is one year). Valid ranges: principal above 0 and at most $1000000000; rate 0 to 100%; whole periods 0 to 100.</string>
+    <string name="interest_capital_range_error">Principal must be above 0 and no more than $1000000000.</string>
+    <string name="interest_periods_range_error">Enter a whole number from 0 to 100 periods.</string>
+
+</resources>

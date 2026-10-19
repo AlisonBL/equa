@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Equa</string>
+    <string name="menu_eyebrow">EQUA/FORMULAS</string>
+    <string name="menu_title">Resuelve tus fórmulas</string>
+    <string name="menu_subtitle">Elige una de las cuatro opciones para comenzar.</string>
+    <string name="menu_section">Selecciona un cálculo</string>
+    <string name="menu_action">Abrir fórmula</string>
+    <string name="menu_imc_description">Calcula tu IMC y conoce su clasificación.</string>
+    <string name="menu_ohm_description">Encuentra la corriente a partir del voltaje y la resistencia.</string>
+    <string name="menu_distance_description">Calcula la distancia a velocidad constante.</string>
+    <string name="menu_interest_description">Obtén el capital final y el interés ganado.</string>
+    <string name="formula_imc_title">Índice de masa corporal</string>
+    <string name="formula_ohm_title">Ley de Ohm</string>
+    <string name="formula_distance_title">Distancia recorrida</string>
+    <string name="formula_interest_title">Interés compuesto</string>
+    <string name="back">Volver</string>
+    <string name="calculate">Calcular</string>
+    <string name="clear">Limpiar</string>
+    <string name="result">Resultado</string>
+    <string name="inputs">Datos de entrada</string>
+    <string name="field_weight">Peso</string>
+    <string name="field_height">Estatura</string>
+    <string name="field_voltage">Voltaje</string>
+    <string name="field_resistance">Resistencia</string>
+    <string name="field_speed">Velocidad</string>
+    <string name="field_time">Tiempo</string>
+    <string name="field_initial_capital">Capital inicial</string>
+    <string name="field_rate">Tasa de interés por periodo</string>
+    <string name="field_periods">Número de periodos</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_m">m</string>
+    <string name="unit_volt">V</string>
+    <string name="unit_ohm">Ω</string>
+    <string name="unit_ampere">A</string>
+    <string name="unit_mps">m/s</string>
+    <string name="unit_seconds">s</string>
+    <string name="unit_currency">$</string>
+    <string name="unit_percent">%</string>
+    <string name="unit_periods">periodos</string>
+    <string name="unit_distance">m</string>
+    <string name="error_required">Este campo es obligatorio.</string>
+    <string name="error_invalid_number">Introduce un número válido.</string>
+    <string name="error_must_positive">El valor debe ser mayor que cero.</string>
+    <string name="error_must_nonnegative">El valor no puede ser negativo.</string>
+    <string name="error_rate_range">La tasa debe estar entre 0 % y 100 %.</string>
+    <string name="error_periods_integer">Introduce un número entero de periodos.</string>
+    <string name="result_imc">IMC: %1$.2f</string>
+    <string name="result_current">Corriente: %1$.2f A</string>
+    <string name="result_distance">Distancia: %1$.2f m</string>
+    <string name="result_final_capital">Capital final: $%1$.2f</string>
+    <string name="result_interest">Interés ganado: $%1$.2f</string>
+    <string name="imc_underweight">Bajo peso</string>
+    <string name="imc_normal">Peso normal</string>
+    <string name="imc_overweight">Sobrepeso</string>
+    <string name="imc_obesity">Obesidad</string>
+    <string name="result_classification">Clasificación: %1$s</string>
+
+    <string name="imc_introduction">Calcula tu índice de masa corporal a partir de tu peso y estatura.</string>
+    <string name="imc_formula_heading">FÓRMULA DEL IMC</string>
+    <string name="imc_formula_accessibility">Masa en kilogramos dividida entre estatura en metros al cuadrado.</string>
+    <string name="imc_formula_explanation">m = masa en kg; h = estatura en m. Clasificación orientativa para personas adultas.</string>
+    <string name="imc_weight_label">Peso (kg)</string>
+    <string name="imc_height_label">Estatura (m)</string>
+    <string name="imc_weight_hint">Ej. 65,5</string>
+    <string name="imc_height_hint">Ej. 1,65</string>
+    <string name="imc_input_help">Rangos válidos: peso de 20 a 350 kg y estatura de 0,8 a 2,5 m.</string>
+    <string name="imc_weight_range_error">Ingresa un peso entre 20 y 350 kg.</string>
+    <string name="imc_height_range_error">Ingresa una estatura entre 0,8 y 2,5 m.</string>
+    <string name="imc_result_with_unit">IMC: %1$.2f kg/m²</string>
+
+    <string name="ohm_introduction">Calcula la corriente eléctrica a partir del voltaje y la resistencia.</string>
+    <string name="ohm_formula_heading">FÓRMULA DE LA LEY DE OHM</string>
+    <string name="ohm_formula_accessibility">Corriente igual a voltaje dividido entre resistencia.</string>
+    <string name="ohm_formula_explanation">I = corriente en amperios; V = voltaje en voltios; R = resistencia en ohmios.</string>
+    <string name="ohm_voltage_label">Voltaje (V)</string>
+    <string name="ohm_resistance_label">Resistencia (Ω)</string>
+    <string name="ohm_voltage_hint">Ej. 12</string>
+    <string name="ohm_resistance_hint">Ej. 6</string>
+    <string name="ohm_input_help">Rangos válidos: voltaje de 0 a 1000 V y resistencia de 0,1 a 100000 Ω. La resistencia no puede ser cero.</string>
+    <string name="ohm_voltage_range_error">Introduce un voltaje entre 0 y 1000 V.</string>
+    <string name="ohm_resistance_range_error">Introduce una resistencia entre 0,1 y 100000 Ω.</string>
+
+    <string name="distance_introduction">Calcula la distancia recorrida cuando la velocidad permanece constante.</string>
+    <string name="distance_formula_heading">FÓRMULA DE DISTANCIA</string>
+    <string name="distance_formula_accessibility">Distancia igual a velocidad multiplicada por tiempo.</string>
+    <string name="distance_formula_explanation">d = distancia en metros; v = velocidad en m/s; t = tiempo en segundos.</string>
+    <string name="distance_speed_label">Velocidad (m/s)</string>
+    <string name="distance_time_label">Tiempo (s)</string>
+    <string name="distance_speed_hint">Ej. 12,5</string>
+    <string name="distance_time_hint">Ej. 8</string>
+    <string name="distance_input_help">Rangos válidos: velocidad entre 0 y 1000 m/s y tiempo entre 0 y 86400 s. Suponemos velocidad constante.</string>
+    <string name="distance_speed_range_error">Introduce una velocidad entre 0 y 1000 m/s.</string>
+    <string name="distance_time_range_error">Introduce un tiempo entre 0 y 86400 s.</string>
+
+    <string name="interest_introduction">Calcula cuánto dinero tendrás al final y cuánto interés ganaste con capitalización por periodo.</string>
+    <string name="interest_formula_heading">FÓRMULAS DE INTERÉS COMPUESTO</string>
+    <string name="interest_final_formula_label">Capital final</string>
+    <string name="interest_earned_formula_label">Interés ganado</string>
+    <string name="interest_final_formula_accessibility">Capital final igual al capital inicial multiplicado por uno más la tasa decimal, elevado al número de periodos.</string>
+    <string name="interest_earned_formula_accessibility">Interés ganado igual al capital inicial multiplicado por uno más la tasa decimal elevado a los periodos, menos uno.</string>
+    <string name="interest_formula_explanation">Ci = capital inicial; i = tasa decimal por periodo; n = número de periodos; Cf = capital final; I = interés ganado.</string>
+    <string name="interest_capital_label">Capital inicial ($)</string>
+    <string name="interest_rate_label">Tasa por periodo (%)</string>
+    <string name="interest_periods_label">Número de periodos</string>
+    <string name="interest_capital_hint">Ej. 1000</string>
+    <string name="interest_rate_hint">Ej. 5</string>
+    <string name="interest_periods_hint">Ej. 2</string>
+    <string name="interest_input_help">Usa la tasa de cada periodo (si la tasa es anual, cada periodo será un año). Rangos válidos: capital mayor que 0 y hasta $1000000000; tasa de 0 a 100 %; periodos enteros de 0 a 100.</string>
+    <string name="interest_capital_range_error">El capital debe ser mayor que 0 y no superar $1000000000.</string>
+    <string name="interest_periods_range_error">Introduce de 0 a 100 periodos enteros.</string>
+
+
+
+</resources>
