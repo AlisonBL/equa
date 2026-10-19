@@ -48,4 +48,4 @@ Distribuido bajo la Licencia MIT.
 
 - **Nombre:** Alison Becerra Lara
 - **Correo:** alisonblara@gmail.com
-- **Enlace del proyecto:** 
+- **Enlace del proyecto:** https://github.com/AlisonBL/equa
